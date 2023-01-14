@@ -8,9 +8,7 @@ com\Backend\demo\Models\Usuario.class
 com\Backend\demo\Repositories\Usuario_repository.class
 com\Backend\demo\Controllers\Pasatiempo_controller.class
 com\Backend\demo\Controllers\Proyecto_controller.class
-com\Backend\demo\Models\Detalles_educacion.class
 com\Backend\demo\Controllers\Experiencia_laboral_controller.class
-com\Backend\demo\Repositories\Detalles_educacion_repository.class
 com\Backend\demo\Models\Persona.class
 com\Backend\demo\Repositories\Educacion_repository.class
 com\Backend\demo\Models\Categoria.class
@@ -23,7 +21,6 @@ com\Backend\demo\Models\Experiencia_laboral.class
 com\Backend\demo\Models\Tipo.class
 com\Backend\demo\Controllers\Persona_controller.class
 com\Backend\demo\Repositories\Proyecto_repository.class
-com\Backend\demo\Controllers\Detalles_educacion_controller.class
 com\Backend\demo\Models\Educacion.class
 com\Backend\demo\Models\Estado.class
 com\Backend\demo\Repositories\Persona_repository.class

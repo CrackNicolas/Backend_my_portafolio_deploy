@@ -1,6 +1,5 @@
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Pasatiempo.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Repositories\Educacion_repository.java
-C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Repositories\Detalles_educacion_repository.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Repositories\Pasatiempo_repository.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Educacion.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Controllers\Educacion_controller.java
@@ -25,9 +24,7 @@ C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Controlle
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Repositories\Habilidad_repository.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Estado.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Repositories\Persona_repository.java
-C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Controllers\Detalles_educacion_controller.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Services\Persona_service.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Controllers\Usuario_controller.java
-C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Detalles_educacion.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Experiencia_laboral.java
 C:\Users\MI PC\Cosas pc\Desktop\Backend\src\main\java\com\Backend\demo\Models\Red_social.java

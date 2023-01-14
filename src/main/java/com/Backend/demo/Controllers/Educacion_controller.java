@@ -84,7 +84,6 @@ public class Educacion_controller {
             return ResponseEntity.unprocessableEntity().build();
         }
         educacion_repository.delete(educacion_optional.get());
-        
         return ResponseEntity.noContent().build(); 
     }
 }

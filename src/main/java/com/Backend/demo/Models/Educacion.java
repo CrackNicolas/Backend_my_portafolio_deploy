@@ -2,14 +2,11 @@ package com.Backend.demo.Models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
-import javax.persistence.CascadeType;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -18,7 +15,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -57,11 +53,12 @@ public class Educacion {
     @Column(length = 150)
     private String url_imagen;
     
+    @NotNull
+    @Column(length = 400)
+    private String descripcion;
+    
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "id_persona")
     @JsonProperty(access = Access.WRITE_ONLY)
     private Persona persona;
-    
-    @OneToMany(mappedBy = "educacion", cascade = CascadeType.ALL)
-    private Set<Detalles_educacion> detalles_educacion = new HashSet<>();
 }
