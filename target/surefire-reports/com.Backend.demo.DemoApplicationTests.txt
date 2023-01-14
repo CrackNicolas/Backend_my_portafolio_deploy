@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.Backend.demo.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.268 s - in com.Backend.demo.DemoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.161 s - in com.Backend.demo.DemoApplicationTests
