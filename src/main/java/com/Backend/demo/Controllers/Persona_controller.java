@@ -19,7 +19,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/persona")
-@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
+@CrossOrigin(origins = "https://frontendmyportafoliodepl-45ec8.web.app")
 public class Persona_controller {
     @Autowired
     private Persona_service persona_service;

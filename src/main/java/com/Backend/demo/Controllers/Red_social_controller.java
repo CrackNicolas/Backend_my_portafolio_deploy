@@ -22,7 +22,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/red_social")
-@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
+@CrossOrigin(origins = "https://frontendmyportafoliodepl-45ec8.web.app")
 public class Red_social_controller {
     @Autowired
     private Red_social_repository red_social_repository;
