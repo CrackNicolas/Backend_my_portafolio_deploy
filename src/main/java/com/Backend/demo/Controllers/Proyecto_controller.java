@@ -23,7 +23,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/proyecto")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
 public class Proyecto_controller{
     @Autowired
     private Proyecto_repository proyecto_repository;

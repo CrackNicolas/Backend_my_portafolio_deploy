@@ -21,7 +21,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/usuario")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
 public class Usuario_controller {
     @Autowired
     private Usuario_repository usuario_repository;

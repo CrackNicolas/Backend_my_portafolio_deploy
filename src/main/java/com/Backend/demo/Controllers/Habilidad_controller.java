@@ -23,7 +23,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/habilidad")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
 public class Habilidad_controller {
     @Autowired
     private Habilidad_repository habilidad_repository;

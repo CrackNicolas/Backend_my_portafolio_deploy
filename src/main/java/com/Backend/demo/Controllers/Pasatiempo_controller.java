@@ -23,7 +23,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/pasatiempo")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
 public class Pasatiempo_controller {
     @Autowired
     private Pasatiempo_repository pasatiempo_repository;

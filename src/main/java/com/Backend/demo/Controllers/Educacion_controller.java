@@ -23,7 +23,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/api/educacion")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendmyportafoliodeploy.web.app")
 public class Educacion_controller {
     @Autowired
     private Educacion_repository educacion_repository;
